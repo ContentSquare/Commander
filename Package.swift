@@ -16,5 +16,6 @@ let package = Package(
   targets: [
     .target(name: "Commander", dependencies: []),
     .testTarget(name: "CommanderTests", dependencies: ["Commander", "Spectre"]),
-  ]
+    ],
+  swiftLanguageVersions: [.v4_2, .v5]
 )
