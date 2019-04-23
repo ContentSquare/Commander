@@ -4,6 +4,9 @@ import PackageDescription
 
 let package = Package(
   name: "Commander",
+  platforms: [
+    .macOS(.v10_13),
+  ],
   products: [
     .library(name: "Commander", targets: ["Commander"]),
   ],
